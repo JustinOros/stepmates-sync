@@ -1,0 +1,2 @@
+com.stepmates.sync.test:string/app_url = 0x7f010001
+com.stepmates.sync.test:string/app_author = 0x7f010000

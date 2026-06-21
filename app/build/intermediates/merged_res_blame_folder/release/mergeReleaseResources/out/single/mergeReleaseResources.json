@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.stepmates.sync.app-release-41:/layout_activity_main.xml.flat",
+        "source": "com.stepmates.sync.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.stepmates.sync.app-release-41:/drawable_input_background.xml.flat",
+        "source": "com.stepmates.sync.app-main-42:/drawable/input_background.xml"
+    }
+]

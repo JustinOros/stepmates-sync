@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Value from default config. -->
+    <string name="app_author" translatable="false">Justin Oros</string>
+    <!-- Value from default config. -->
+    <string name="app_url" translatable="false">https://justinoros.github.io/step-tracker</string>
+
+</resources>

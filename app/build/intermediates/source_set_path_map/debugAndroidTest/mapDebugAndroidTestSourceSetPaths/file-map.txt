@@ -1,0 +1,4 @@
+com.stepmates.sync.test.app-androidTest-0 /Users/justinoros/Downloads/step-tracker-android/app/build/generated/res/resValues/androidTest/debug
+com.stepmates.sync.test.app-mergeDebugAndroidTestResources-1 /Users/justinoros/Downloads/step-tracker-android/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.stepmates.sync.test.app-mergeDebugAndroidTestResources-2 /Users/justinoros/Downloads/step-tracker-android/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.stepmates.sync.test.app-debugAndroidTest-3 /Users/justinoros/Downloads/step-tracker-android/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

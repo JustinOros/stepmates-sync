@@ -1,0 +1,2 @@
+rootProject.name = "StepMates Sync"
+include ':app'

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F1923"
+    android:padding="28dp">
+
+    <TextView
+        android:id="@+id/tvLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StepMates"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#00C9B1"
+        android:letterSpacing="-0.03"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:id="@+id/tvTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step sync for Android"
+        android:textSize="15sp"
+        android:textColor="#8899A6"
+        app:layout_constraintTop_toBottomOf="@id/tvLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR STEPMATES WEBHOOK URL"
+        android:textSize="11sp"
+        android:textColor="#8899A6"
+        android:letterSpacing="0.08"
+        app:layout_constraintTop_toBottomOf="@id/tvTagline"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="56dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:inputType="textUri"
+        android:hint="https://webhook-…?token=…"
+        android:textColorHint="#8899A6"
+        android:textColor="#F8F9FA"
+        android:textSize="13sp"
+        android:background="@drawable/input_background"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        app:layout_constraintTop_toBottomOf="@id/tvEmailLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnSync"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:text="Sync My Steps"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#0F1923"
+        android:backgroundTint="#00C9B1"
+        android:stateListAnimator="@null"
+        app:layout_constraintTop_toBottomOf="@id/etEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:indeterminateTint="#00C9B1"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/btnSync"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textColor="#F8F9FA"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        app:layout_constraintTop_toBottomOf="@id/progressBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvLastSync"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="13sp"
+        android:textColor="#8899A6"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/tvStatus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="justinoros.github.io/step-tracker"
+        android:textSize="12sp"
+        android:textColor="#2A3D52"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
