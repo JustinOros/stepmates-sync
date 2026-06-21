@@ -1,34 +1,13 @@
-# StepMates Sync — Android Companion App
+# StepMates Sync
 
-Syncs your steps from Health Connect to StepMates automatically.
+Mobile companion apps for syncing steps to [StepMates](https://justinoros.github.io/step-tracker).
 
-## How to Use
+## Android
+See [android/README.md](android/README.md) for setup and build instructions.
 
-1. Open the app
-2. Paste your StepMates Webhook URL (from your approval email)
-3. Tap **Sync My Steps**
-4. Grant Health Connect permission when prompted
-5. Done! Your steps are synced
+## iOS
+Coming soon! In the meantime, iPhone users can use [Health Auto Export](https://apps.apple.com/us/app/health-auto-export-json-csv/id1115567069) from the App Store to sync steps automatically.
 
-Your webhook URL looks like:
-`https://webhook-mgc3i5pbxq-uc.a.run.app?token=YOUR_TOKEN`
-
-## Requirements
-- Android 8.0+ (API 26+)
-- Health Connect installed ([Get it on Play Store](https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata))
-- A StepMates account at https://justinoros.github.io/step-tracker
-
-## How to Build
-
-1. Install [Android Studio](https://developer.android.com/studio)
-2. Open this project
-3. **Build → Generate Signed APK**
-4. Create a keystore (save it somewhere safe!)
-5. Upload the signed APK to GitHub Releases
-
-## How it Works
-
-- Reads last 7 days of steps from Health Connect
-- POSTs directly to your personal StepMates webhook URL
-- No login required — your webhook URL is your key
-- Saves your webhook URL so you only need to paste it once
+## Download
+- **Android:** [Download latest APK](https://github.com/JustinOros/step-tracker/releases/download/v1.1/StepMates-Sync-Android.apk)
+- **iOS:** Coming soon
