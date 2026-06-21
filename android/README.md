@@ -19,6 +19,7 @@ You can also find your webhook URL in StepMates → hamburger menu → Setup & S
 ## Requirements
 
 - Android 8.0+ (API 26+)
+- Health Connect installed (search "Health Connect" in the Play Store if not already installed)
 - A StepMates account at https://justinoros.github.io/step-tracker
 
 ## Download
